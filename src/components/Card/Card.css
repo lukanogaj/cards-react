@@ -1,0 +1,17 @@
+.hero {
+  display: grid;
+  margin: 1rem;
+  grid-template-columns: repeat(4, 30rem);
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  background-color: yellow;
+  width: 400px;
+  height: 150px;
+  padding: 10px;
+  border: 1px dashed #000000;
+  border-radius: 12px;
+  transition-duration: 1s;
+}
