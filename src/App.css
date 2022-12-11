@@ -7,9 +7,14 @@
 }
 
 .container {
-  display: flex;
+  display: grid;
+  /* margin: 1rem; */
+  padding-left: 5rem;
+  grid-template-columns: repeat(4, 28rem);
+  grid-template-rows: repeat(2, 15rem);
   width: 100vw;
   height: 100vh;
   background-color: blue;
   background-image: linear-gradient(to right, blue, #f06d06);
+  overflow: hidden;
 }

@@ -1,12 +1,7 @@
-.hero {
-  display: grid;
-  margin: 1rem;
-  grid-template-columns: repeat(4, 30rem);
-}
-
 .card {
   display: flex;
   justify-content: space-between;
+  margin-top: 2rem;
   background-color: yellow;
   width: 400px;
   height: 150px;
