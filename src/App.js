@@ -6,8 +6,8 @@ import { cards } from './data';
 const App = () => {
   return (
     <div className='container'>
-      {cards.map((item, id) => (
-        <Card key={item.id} />
+      {cards.map((card) => (
+        <Card key={card.id} card={card} />
       ))}
     </div>
   );

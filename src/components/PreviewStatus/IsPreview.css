@@ -1,0 +1,10 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  height: 150px;
+  padding: 10px;
+  border: 1px dashed #000000;
+  border-radius: 12px;
+  transition-duration: 1s;
+}

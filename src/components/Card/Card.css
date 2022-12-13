@@ -10,3 +10,16 @@
   border-radius: 12px;
   transition-duration: 1s;
 }
+
+.no-preview {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  background-color: lightslategrey;
+  width: 400px;
+  height: 150px;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 12px;
+  transition-duration: 1s;
+}
