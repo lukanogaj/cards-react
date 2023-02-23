@@ -1,8 +1,8 @@
-import './IsPreview.css';
-// import { cards } from './data';
+// import './IsPreview.css';
+// // import { cards } from './data';
 
-const IsPreview = (props) => {
-  return <h1>is preview</h1>;
-};
+// const IsPreview = (props) => {
+//   return <h1>is preview</h1>;
+// };
 
-export default IsPreview;
+// export default IsPreview;
